@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #f7df1e !important;
+}
+body .bg-dark{
+  background-color: black !important;
+}
+
+.jumbotron{
+  background-image: url(https://www.springwise.com/wp-content/uploads/2019/09/sustainability-innovationscience-enviromentudaipur-students-recycle-waste-eco-bricks.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+.jumbotron h1, p{
+  background-color: #ffffff73;
+  padding: 50px;
+}
+
+.modal-header{
+  background: black;
+  color: white;
+}
